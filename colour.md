@@ -1,6 +1,6 @@
 # Colour
 
-The bangle.js 2 is 3-bit, meaning that there are only 8 colours. However, using dithering, we're able to display more colours. Dithering is hard on the small, 176x176 display, and can reduce bad results if not done properly. 
+The bangle.js 2 is 3-bit, meaning that there are only 8 colours. However, using dithering, we're able to display more colours. Dithering is hard on the small, 176x176 display, and can reduce bad results if not done properly. There are many choices for a dithering algorithm, but we have decided to go with the atkinson dithering algorithm, as it seems to be the simplest to implement and provides nice looking results.
 
 | Binary | Hex Code | Color Name |
 |--------|----------|------------|
