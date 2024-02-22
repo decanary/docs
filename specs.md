@@ -5,7 +5,7 @@ On the hardware you can find the following:
 - IP67 Waterproof (max 1 meter for 30 minutes)
 - Nordic 64MHz nRF52840 ARM Cortex-M4 processor with Bluetooth LE
 - 256kB RAM, 1MB on-chip flash, 8MB external flash
-- 1.3 inch 176x176 always-on 3 bit colour LCD display (LPM013M126) with backlight
+- 1.3 inch 176x176 always-on [3 bit colour](colour.md) LCD display (LPM013M126) with backlight
 - Full touchscreen (6H hardness glass)
 - GPS/Glonass receiver
 - Heart rate monitor
