@@ -23,3 +23,5 @@ The bangle js 2 depends on some open source software to run properly.
 - [Firmware](https://github.com/espruino/Espruino/blob/master/libs/banglejs/jswrap_bangle.c), I don't advise modifying this unless necessary - _almost everything_ can be done without writing a single line of C on the bangle js 2.
 
 This doc is in construction!
+
+Editing this to show Dan how to use git.
