@@ -1,0 +1,20 @@
+Power Consumption:
+
+Idle, accelerometer on 12.5Hz - 0.3mA
+Idle, accelerometer on 1.25Hz (Bangle.setPollInterval(800)) - 0.15mA (default if not moved for ~120s)
+Idle, clock (s7clk) updating once a second - 0.5mA
+BLE Connected in high bandwidth mode - 0.75mA
+Compass on, 12.5Hz - 5.5mA (+5mA)
+Compass on, 1.25Hz (Bangle.setPollInterval(800)) - 0.9mA (+0.6mA)
+Heart rate monitor on - 1.0mA (+0.7mA) (KickStarter version = ~1.5mA)
+100% CPU usage running JavaScript - 4mA (+3mA)
+GPS on - 26mA (+25mA)
+GPS on (set to GPS only) - 20mA (+19mA)
+LCD touchscreen enabled (unlocked) - 2.8mA (+2.5mA)
+LCD backlight on - 17mA (+16mA)
+Turned off (Bangle.off - no RTC) - 0.02mA
+Turned off (Bangle.softOff) - 0.03mA
+
+Right now you can expect around 1 month of battery life with a clock that updates once a minute, using the latest firmware.
+
+A clock that updates once a second all the time (like s7clk) will reduce the battery life to 2 weeks, and more complicated clocks can increase the power draw further.
